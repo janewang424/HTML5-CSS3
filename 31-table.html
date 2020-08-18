@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table align="center" border="1" cellpadding="2" cellspacing="0" width="50" height="">
+        <!--characteristic is not that important, usually used in CSS-->
+        <!--align: left, center, right-->
+        <!--border: 1 or ""-->
+        <!--cellpadding: border&letters distance, default=1-->
+        <!--cellspacing:cell&cell distance-->
+        <!--width & height: width & height-->
+    <thead>
+        <tr><th>Name</th> <th>Gender</th> <th>Age</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Jane</td> <td>F</td> <td>23</td></tr>
+        <tr><td>Nick</td> <td>M</td> <td>26</td></tr>
+        <!--spannnnnn-->
+        <tr><td>Jane</td> <td colspan="2">F</td> </tr>
+        <tr><td>Nick</td> <td>M</td> <td>26</td></tr>
+        <tr><td rowspan="2">Jane</td> <td>F</td> <td>23</td></tr>
+        <tr> <td>M</td> <td>26</td></tr>
+    </tbody>
+    </table>
+
+    <!--unlisted table only contain <li> but <li>can contain any type-->
+    <ul>
+        <li>doran</li>
+        <li>tofu</li>
+        <li>baklava</li>
+    </ul>
+    <!--listed table only contain <li> but <li>can contain any type-->
+    <ol>
+        <li>Jane 10000</li>
+        <li>Nick 100</li>
+        <li>Nane 10000</li>
+    </ol>
+
+    <dl>
+        <dt>Contact us</dt>
+        <dd>weibo</dd>
+        <dd>wechat</dd>
+        <dd>email</dd>
+    </dl>
+</body>
+</html>
