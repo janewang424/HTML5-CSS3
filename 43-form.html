@@ -12,21 +12,86 @@
         User: <input type="text" name="username" value="Enter Username" maxlength="6"> <br>
         Password: <input type="password" name="password"> <br>
         <!--radio: single select. Must have same name-->
-        Gender: Male<input type="radio" name="gender" value="Male"> Female<input type="radio" name="gender" value="Female"> Other<input type="radio" name="gender" value="None"> <br>
+        Gender: 
+        <!--<label for> is for clicking the text and choose the corresponding form element-->
+        <label for="button1">Male</label><input type="radio" name="gender" value="Male" id="button1"> &nbsp; 
+        <label for="button2">Female</label><input type="radio" name="gender" value="Female" id="button2"> &nbsp; 
+        <label for="button3">Other</label><input type="radio" name="gender" value="None" id="button3"> <br>
         <!--checkbox-->
         Interests: Reading<input type="checkbox" name="hobby"> videogames<input type="checkbox" name="hobby"><br>
         <input type="checkbox" name="termofuse" checked="checked">Agree the term of use. <br>
         <!--Normal Button: later with js-->
         <input type="button" value="Get catche"> <br>
+        <!--Upload file-->
+        <input type="file"> <br>
+        
         <input type="submit" value="subscribe"> 
         <input type="reset" value="reset">
-        <!--Upload file-->
-        <input type="file">
-        
     </form>
     <!--checked-->
+
+    <!--Select option-->
+    States:
+    <select>
+        <option selected="selected">Non US</option>><!--Default option-->
+        <option>Alabama</option>
+        <option>Alaska</option>
+        <option>Arizona</option>
+        <option>Arkansas</option>
+        <option>California</option>
+        <option>Colorado</option>
+        <option>Connecticut</option>
+        <option>Delaware</option>
+        <option>Florida</option>
+        <option>Georgia</option>
+        <option>Hawaii</option>
+        <option>Idaho</option>
+        <option>Illinois</option>
+        <option>Indiana</option>
+        <option>Iowa</option>
+        <option>Kansas</option>
+        <option>Kentucky</option>
+        <option>Louisiana</option>
+        <option>Maine</option>
+        <option>Maryland</option>
+        <option>Massachusetts</option>
+        <option>Michigan</option>
+        <option>Minnesota</option>
+        <option>Mississippi</option>
+        <option>Missouri</option>
+        <option>Montana</option>
+        <option>Nebraska</option>
+        <option>Nevada</option>
+        <option>New Hampshire</option>
+        <option>New Jersey</option>
+        <option>New Mexico</option>
+        <option>New York</option>
+        <option>North Carolina</option>
+        <option>North Dakota</option>
+        <option>Ohio</option>
+        <option>Oklahoma</option>
+        <option>Oregon</option>
+        <option>Pennsylvania</option>
+        <option>Rhode Island</option>
+        <option>South Carolina</option>
+        <option>South Dakota</option>
+        <option>Tennessee</option>
+        <option>Texas</option>
+        <option>Utah</option>
+        <option>Vermont</option>
+        <option>Virginia</option>
+        <option>Washington</option>
+        <option>West Virginia</option>
+        <option>Wisconsin</option>
+        <option>Wyoming</option>
+    </select>
+
+    <!--textarea-->
     <form>
-        
+        Report:
+        <textarea cols="50" rows="5">Type here
+        </textarea>
     </form>
+
 </body>
 </html>
