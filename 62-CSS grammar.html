@@ -7,14 +7,52 @@
     <style>
         /* Comment out shortcut: Ctrl+/ */
         /* Selectors{Style} */
+        
+        /* Element Selector */
         /* name{style} */
-        p{
-            color: red;
+        p {
+            color: green;
             font-size: 12px; /* Change font size */
+        }
+        div {
+            color: pink;
+        }
+        /* class Selector */
+        /* .define, class call type */
+        .red {
+            color: red;
+        }
+
+        /* id Selector */
+        /* The id selector uses the id attribute of an HTML element to select a specific element.
+            The id of an element is unique within a page, so the id selector is used to select one unique element!
+            To select an element with a specific id, write a hash (#) character, followed by the id of the element. */
+        #blue {
+            color: blue;
+        }
+
+        /* Universal Selector */
+        /* Default every elemet's style */
+        * {
+            color: purple;
         }
     </style>
 </head>
 <body>
     <p>Interesting</p>
+    <p>Interesting</p>
+    <p>Interesting</p>
+    <div id="blue">Boring</div>
+    <div>Boring</div>
+    <div>Boring</div>
+    <ol>
+        <li class="red">Jane 10000</li>
+        <li>Nick 100</li>
+        <li>Nane 10000</li>
+    </ol>
+
+    
+    <a href="https://www.w3schools.com/css/css_selectors.asp">Reference of the Selectors</a>
+
 </body>
 </html>
