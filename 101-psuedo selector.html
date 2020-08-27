@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Must follow LVHA sequence */
+        /* Link Pseudo-classes */
+        /* Some of the more basic pseudo-classes include two revolving around links specifically. The :link and :visited pseudo-classes define if a link has or hasn’t been visited. To style an anchor which has not been visited the :link pseudo-class comes into play, where the :visited pseudo-class styles links that a user has already visited based on their browsing history. */
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #888;
+        }
+
+        /* User Action Pseudo-classes */
+        /* Based on a users’ actions different pseudo-classes may be dynamically applied to an element, of which include the :hover, :active, and :focus pseudo-classes. The :hover pseudo-class is applied to an element when a user moves their cursor over the element, most commonly used with anchor elements. The :active pseudo-class is applied to an element when a user engages an element, such as clicking on an element. Lastly, the :focus pseudo-class is applied to an element when a user has made an element the focus point of the page, often by using the keyboard to tab from one element to another. */
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    Must follow LVHA sequence
+    <a href="#">Mama Bear</a>
+    <a href="https://learn.shayhowe.com/advanced-html-css/complex-selectors/#pseudo-classes">Complex Selector Doc.</a>
+
+</body>
+
+</html>
