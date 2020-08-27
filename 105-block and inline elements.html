@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            /* width: 300px; */
+            height: 200px;
+            background-color: rgb(182, 220, 235);
+        }
+
+        span {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+
+        input {
+            width: 240px;
+            height: 50px;
+        }
+
+        /* Special inline-block-level elements */
+        /* display: block; */
+        /* display: inline; */
+        /* display: inline-block */
+        a {
+            width: 150px;
+            height: 50px;
+            background-color: yellow;
+            display: block;
+        }
+
+        .inlineblock {
+            width: 150px;
+            height: 50px;
+            background-color: greenyellow;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>Block-level Elements</h4>
+    <!-- A block-level element can take up one line or multiple lines and has a line break before and after the element. Other examples of the block-level tag are: <div>, <p>, Heading tags <h1> to <h6> List (Ordered, Unordered, Description and List Item) tags <ol> , <ul> , <dl> , <li> -->
+    <div>A block-level element's characteristics:
+        <ul>
+            <li>Each one set as one line</li>
+            <li>Can define height, width and margin</li>
+            <li>Default width is 100% of the father block</li>
+            <li>It's a block or box, can contain block-level elements or inline-level elements</li>
+        </ul>
+    </div> There shouldn't be div in p or h1-h6.
+
+    <h4>Inline-level Elements</h4>
+    <!-- Inline Element:
+    Inline as the name says “included as a part of the main text and not as a separate section”. Inline elements occupy the space as needed within the space defined by the main element. Unlike block-level elements, they do not begin on new lines.
+    Some of the inline elements are <a>,<span>,<img>,<code>,<cite>,<button>,<input>,<strong>,<b>,<em> etc. -->
+    <div>An inline-level element's characteristics:
+        <ul>
+            <li>Could be a few in a single line</li>
+            <li>Can NOT define height, width and margin</li>
+            <li>Default width is its content width</li>
+            <li>It can only contain text or other inline-level elements.</li>
+        </ul>
+    </div>
+    <span>For Example: <strong>This is bold.</strong></span>
+    <span>There shouldn't be a 'a' in one 'a' but can be 'div' in an 'a'</span>
+
+    <!-- Special inline-block-level elements -->
+    <h4>Special Elements</h4>
+
+    <div>characteristics for special elements like 'img' 'input' 'td':
+        <ul>
+            <li>In the same line as the neighbour special elements, but remain space between. Could be more than one
+                special elements.</li>
+            <li>Can define height, width and margin</li>
+            <li>Default width is its content width</li>
+
+        </ul>
+    </div>
+    <input type="text">
+    <input type="text">
+    <!-- Change <a> style -->
+    <a href="https://www.w3schools.com/cssref/default.asp">CSS Reference</a>
+    <span class="inlineblock">Change to inline-block elements</span>
+    <span class="inlineblock">Change to inline-block elements</span>
+    Introduce an MVP 'snipast'.
+</body>
+
+</html>
