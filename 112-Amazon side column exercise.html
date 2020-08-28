@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1. Turn a into block-level */
+        a {
+            display: block;
+            width: 230px;
+            height: 40px;
+            background-color: white;
+            text-indent: 2em;
+            text-decoration: none;
+            color: black;
+            /* Centered -- no certain code in CSS but still can achieve by the trick line-height = height*/
+            line-height: 40px;
+        }
+
+        /* 2. Hover color */
+        a:hover {
+            background-color: rgb(221, 221, 221);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="#">Prime Video</a>
+        <a href="#">Amazon Music</a>
+        <a href="#">Echo & Alexa</a>
+        <a href="#">Fire Tablets</a>
+        <a href="#">Fire TV</a>
+        <a href="#">Kindle E-readers & Books</a>
+        <a href="#">Audible Books & Originals</a>
+        <a href="#">Appstore for Android</a>
+    </div>
+</body>
+
+</html>
