@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* backgroung color */
+        body {
+            background-image: url(hugeBackground.jpg);
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+
+        .icondiv {
+            width: 118px;
+            height: 40px;
+            background-color: rgb(198, 231, 253);
+        }
+
+        .icon {
+            width: 30px;
+            height: 30px;
+            background-image: url(icon.png);
+            background-repeat: no-repeat;
+            background-position: -30px 0px;
+            /* top: 5px; */
+            /* left: 5px; */
+            /* position: absolute; */
+
+        }
+
+        a {
+            font-size: 14px;
+            font-weight: normal;
+            text-indent: 5em;
+            /* center the line */
+            line-height: 40px;
+            text-decoration: none;
+            color: azure;
+        }
+
+        .normalbg {
+            width: 500px;
+            height: 250px;
+            background-color: blue;
+            /* background color default transparent */
+            /* background-color: red; */
+            /* background-image default tiled, can change to no-repeat, repeat-x or repeat-y*/
+            background-image: url(large.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            /* background-position: x y; Can be top center left right (top left = left top), or 'px' */
+            /* background-position: center center; */
+            background-position: 20px 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="normalbg"></div>
+    <div class="icondiv" style="display:inline">
+        <h3 class="icon">
+        </h3>
+        <a href="...">This is a test</a>
+
+    </div>
+</body>
+
+</html>
